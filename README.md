@@ -1,59 +1,6 @@
 # Boas Vindas ao repositório de Introdução à Python
 
-## Neste repositório você vai encontrar exercícios para treinar conceitos iniciais à linguagem Python.
-
-<br>
-
-## Como posso começar?
-<details>
-<summary> Passo a Passo </summary>
-
-1. Tenha o Python instalado em sua máquina ([guia aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/3f79a20e-f527-4871-b69b-544310cfbda0 "Guia de configuração de ambiente Python")), caso tenha dúvidas sobre esse ponto, poste no canal da turma e o time responsável irá te ajudar aqui. 
-
-> Para nossos exercícios, você precisará dos itens [🐍 Python], [🚚 Pip] e [📚 Venv]
-
-2. Crie o ambiente virtual que será utilizado para instalar as dependências
-
-```bash
-python3 -m venv .venv
-```
-
-3. Ative o ambiente virtual que foi criado
-
-```bash
-source .venv/bin/activate
-```
-
-4. Instale os requerimentos deste repositório 
-
-```bash
-python3 -m pip install -r dev-requirements.txt
-```
-
-5. Execute todos os testes do repositório (note que, enquanto não houver implementação nas funções, os testes falharão!)
-
-```bash
-python3 -m pytest
-```
-
-6. Execute os testes de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
-
-```bash
-python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>
-```
-
-7. Execute apenas um teste específico de um arquivo específico (note que, enquanto não houver implementação nas funções, os testes falharão!)
-
-```bash
-python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>::<nome_da_função_do_teste>
-```
-
-</details>
-
----
-
-<br>
-
+## Neste repositório você vai encontrar exercícios de treino dos conceitos iniciais à linguagem Python.
 
 # Detalhamento sobre os exercícios
 
@@ -62,10 +9,7 @@ python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>::<nome_da_função_do_
 <summary> Operações Básicas </summary>
 <br>
 
-## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/71641e4a-4804-43d0-b91c-b6c0c8724013)
-
 ### Os exercícios relacionados às operações básicas na linguagem `Python` estão localizados no arquivo `exercises/basic_operations.py` e o que se espera de cada um destes exercícios está detalhado abaixo:
-
 
 <br>
 
@@ -127,9 +71,6 @@ def basic_potentiation(first_number, second_number):
 
 <summary> Tipos de Dados em Python </summary>
 <br>
-
-
-## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/358c149a-b1cb-4c04-bb05-508f17e20b50)
 
 ### Os exercícios relacionados aos tipos de dados no `Python` estão localizados no arquivo `exercises/python_data_types.py` e o que se espera de cada um destes exercícios está detalhado abaixo:
 
@@ -252,12 +193,6 @@ def remove_element_from_set(element, input_set):
 <summary> Condicionais </summary>
 <br>
 
-
-## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/e26f6616-26e5-442c-b6f2-8cd7868035f1)
-
-### Os exercícios relacionados às estruturas condicionais no `Python` estão localizados no arquivo `exercises/conditionals.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura condicional `(ifs)`, contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios está detalhado abaixo:
-
-
 <br> 
 
 1. A função abaixo deve verificar se a string passada como parâmetro possui 4 ou mais caracteres, em caso positivo, deve retornar `True`, em caso negativo, retornar `False`.
@@ -298,11 +233,6 @@ def check_if_element_exists_in_list(element, input_list):
 <summary> Repetição </summary>
 <br>
 
-
-## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/f9dfc461-b7f6-40cb-881d-b18abe2880d3)
-
-### Os exercícios relacionados às estruturas de repetição na linguagem `Python` estão localizados no arquivo `exercises/repetition.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura de repetição `(for, while)`, contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios está detalhado abaixo:
-
 <br>
 
 
@@ -330,5 +260,3 @@ def return_element_from_list_that_is_string(input_list):
 </details>
 
 ---
-
-## Qualquer dúvida ou problema, basta postar no canal do slack da turma ou procurar o time de instrução responsável 😊, bons estudos!
